@@ -1,7 +1,13 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## To run API
 
+Used json-server
+
+### `json-server --watch detailsList.json --port 5000`   for DB
+    npm package `json-server` required to run this
+	
 ## Available Scripts
 
 In the project directory, you can run:
