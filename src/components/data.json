@@ -1,0 +1,109 @@
+{
+  "colors": [
+    {
+      "id": 1,
+      "value": "ocean",
+      "label": "Ocean",
+      "color": "#00B8D9"
+    },
+    {
+      "id": 2,
+      "value": "blue",
+      "label": "Blue",
+      "color": "#0052CC"
+    },
+    {
+      "id": 3,
+      "value": "purple",
+      "label": "Purple",
+      "color": "#5243AA"
+    },
+    {
+      "id": 4,
+      "value": "red",
+      "label": "Red",
+      "color": "#FF5630"
+    },
+    {
+      "id": 5,
+      "value": "orange",
+      "label": "Orange",
+      "color": "#FF8B00"
+    },
+    {
+      "id": 6,
+      "value": "yellow",
+      "label": "Yellow",
+      "color": "#FFC400"
+    },
+    {
+      "id": 7,
+      "value": "green",
+      "label": "Green",
+      "color": "#36B37E"
+    },
+    {
+      "id": 8,
+      "value": "forest",
+      "label": "Forest",
+      "color": "#00875A"
+    },
+    {
+      "id": 9,
+      "value": "slate",
+      "label": "Slate",
+      "color": "#253858"
+    },
+    {
+      "id": 10,
+      "value": "silver",
+      "label": "Silver",
+      "color": "#666666"
+    },
+    {
+      "label": "Color",
+      "value": "color",
+      "id": 11
+    },
+    {
+      "label": "H",
+      "value": "h",
+      "id": 12
+    },
+    {
+      "label": "Ghgh",
+      "value": "ghgh",
+      "id": 13
+    },
+    {
+      "label": "Hjhj",
+      "value": "hjhj",
+      "id": 14
+    },
+    {
+      "label": "Df",
+      "value": "df",
+      "id": 15
+    },
+    {
+      "label": "Rr",
+      "value": "rr",
+      "id": 16
+    },
+    {
+      "label": "Fg",
+      "value": "fg",
+      "id": 17
+    },
+    {
+      "label": "Nag",
+      "value": "nag",
+      "id": 18
+    },
+    {
+      "label": "Dd",
+      "value": "dd",
+      "id": 19
+    }
+  ]
+}
