@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { Fragment, useEffect, useState } from 'react';
 
 import AsyncCreatableSelect from 'react-select/async-creatable';
 // import { colourOptions } from './data';
@@ -118,6 +118,10 @@ const CustomSelect = () => {
     return <LoadingMessage />
   }
 
+  const noOptionsMessage = () => (
+    <Fragment>Type to search...</Fragment>
+  );
+
   // const getNewOptionData = (inputValue, optionLabel) => ({
   //   "label": optionLabel,
   //   "value": inputValue,
@@ -135,8 +139,17 @@ const CustomSelect = () => {
 
   return (
     <AsyncCreatableSelect
+      id="test-css"
       styles={
         {
+          indicatorSeparator: (prevStyle, state) => state ? ({
+            ...prevStyle,
+            display: 'none'
+          }) : null,
+          dropdownIndicator: (prevStyle, state) => state ? ({
+            ...prevStyle,
+            display: 'none'
+          }) : null,
           loadingIndicator: (prevStyle, state) => state ? ({
             ...prevStyle,
             display: 'none'
@@ -149,6 +162,7 @@ const CustomSelect = () => {
       formatCreateLabel={formatCreateLabel}
       onCreateOption={onCreateOption}
       isClearable={true}
+      noOptionsMessage={noOptionsMessage}
       // isValidNewOption={isValidNewOption}
       // getNewOptionData={getNewOptionData}
       loadOptions={loadOptions}

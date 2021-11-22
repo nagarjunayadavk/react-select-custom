@@ -106,6 +106,10 @@ const CustomSelect = () => {
     <AsyncCreatableSelect
       styles={
         {
+          dropdownIndicator:  (prevStyle, state) => state ? ({
+            ...prevStyle,
+            display: 'none'
+          }) : null,
           loadingIndicator: (prevStyle, state) => state ? ({
             ...prevStyle,
             display: 'none'
