@@ -5,8 +5,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Used json-server
 
-### `json-server --watch detailsList.json --port 5000`   for DB
+### `json-server --watch data.json --port 5000`   for DB
     npm package `json-server` required to run this
+    `data.json` contains in componentns
 	
 ## Available Scripts
 
